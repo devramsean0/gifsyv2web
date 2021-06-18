@@ -1,9 +1,35 @@
 <html>
-    <head >
-        <link rel="stylesheet" href="/theme/css.css">
+    <head>
+        <link rel="stylesheet" href="/bootstrap/css/halfmoon-variables.css"
     </head>
     <body>
-        <div class="content-wrapper">
+        <!-- Page wrapper with navbar, sidebar, navbar fixed bottom, and sticky alerts (toasts) -->
+        <div 
+          class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom dark-mode" 
+          data-sidebar-type="overlayed-sm-and-down">
+          <!-- Sticky alerts (toasts), empty container -->
+          <div class="sticky-alerts"></div>
+          <!-- Navbar -->
+          <nav class="navbar">
+            
+          </nav>
+          <!-- Sidebar overlay -->
+          <div class="sidebar-overlay" onclick="halfmoon.toggleSidebar()"></div>
+          <!-- Sidebar -->
+          <div class="sidebar">
+            ...
+          </div>
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            ...
+          </div>
+          <!-- Navbar fixed bottom -->
+          <nav class="navbar navbar-fixed-bottom">
+            ...
+          </nav>
         </div>
-    </body>
+      
+        <!-- Requires halfmoon.js for toggling sidebar, and toasts -->
+        <script src="path/to/halfmoon.js"></script>
+      </body>
 </html>
