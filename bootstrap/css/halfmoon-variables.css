@@ -1883,10 +1883,10 @@ CSS variables (CSS custom properties)
     --navbar-brand-image-height: 2.2rem;
     --navbar-brand-image-margin-right: 1rem;
 
-    --lm-navbar-brand-text-color: var(--lm-base-text-color);
+    --lm-navbar-brand-text-color: var(blue);
     --lm-navbar-brand-text-color-hover: var(--lm-base-text-color-light);
 
-    --dm-navbar-brand-text-color: var(--dm-base-text-color);
+    --dm-navbar-brand-text-color: var(blue);
     --dm-navbar-brand-text-color-hover: var(--dm-base-text-color-light);
 
     --navbar-action-button-width: 3.6rem;
